@@ -106,9 +106,9 @@ var Swipeable = React.createClass({
 
     this.setState({ swiping: true })
 
-    if (cancelPageSwipe) {
-      e.preventDefault()
-    }
+    //if (cancelPageSwipe) {
+    //  e.preventDefault()
+    //}
   },
 
   touchEnd: function (ev) {
